@@ -11,6 +11,16 @@
         <h2>PIONEER</h2>
         <h4>GROUP</h4>
         <h6>ERP System</h6>
+
+        <div class="list">
+            <p>Pioneer Group</p>
+            <p>Финансы</p>
+            <p>Склад</p>
+            <p>Продукты</p>
+            <p>Кадры</p>
+            <p>FinTracker</p>
+            <p>Администрирование</p>
+        </div>
     </div>
 
     <div class="content">
@@ -22,19 +32,40 @@
         </div>
 
         <div class="toolbar">
-            <button>+ Создать сотрудника</button>
-            <button>Редактировать</button>
-            <button>Фильтр</button>
+            <button class="creat">+ Создать сотрудника</button>
+            <button class="redactor">Редактировать</button>
+            <button class="filter">Фильтр</button>
 
             <div class="search">
-                <input type="text" placeholder="Поиск">
+                <input class="poisk" type="text" placeholder="Поиск">
             </div>
         </div>
 
-        
+        <div class="main">
+            <div class="main_2">
+                
+                <div class="header">
+                    <div></div>
+                    <div>Сотрудник</div>
+                    <li id="employess">{employee}</li>
+                    <div>ora</div>
+                    <div>Объект</div>
+                    <div>Проекты</div>
+                    <div>Позиция</div>
+                    <div>Дата приема</div>
+                </div>
 
+                <tbody id="tbody"></tbody>
+
+            </div>
+        </div>
     </div>
 </div>
+
+<script src="app.js"></script>
+
 </body>
 </html>
+
+
 
